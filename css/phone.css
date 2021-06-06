@@ -1,0 +1,162 @@
+ *{
+     overflow: auto;
+ }
+ body{
+     background-color: red;
+ }
+
+ #head {
+    margin: 5px auto;
+}
+
+.item {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#logo img {
+    width: 150px;
+    height: 150px;
+}
+
+#home {
+    margin: 20px;
+    height: 564px;
+}
+
+#home::before {
+    width: 120vw;
+    height: 100vh;
+}
+
+#home p {
+    padding: 3px 12px;
+    font-size: 1rem;
+}
+
+
+#skills {
+    height: 1216px;
+}
+
+#skills::before {
+    background: url('../img/bg2.jpg') no-repeat center center/cover;
+    width: 120vw;
+    height: 150vh;
+}
+
+#skills .container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#skills .box {
+    padding: 20px;
+    margin: 5px 1px;
+}
+
+#skill p{
+    font-size: 0.1rem;
+}
+
+
+#about {
+    padding: 0px 1px;
+    height: 791px;
+}
+#about::before {
+    width: 140vw;
+    height: 100vh;
+}
+
+#about p {
+    padding: 5px 1px;
+    font-size: 1rem;
+}
+
+#about .container {
+    margin: 10px 0px;
+}
+
+
+#contact {
+    height: 790px;
+}
+
+#contact::before {
+    width: 120vh;
+    height: 66vh;
+}
+
+#contact-box {
+    padding-bottom: 5px;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 2px;
+    font-size: 1rem;
+}
+
+#contact-box .btn {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 5px auto;
+}
+
+#contact-box form {
+    width: 80%;
+}
+
+#contact-box label {
+    font-size: 1.1rem;
+}
+
+#end {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 5px;
+    padding: 10px 0px;
+}
+
+#end::before {
+    height: 40vh;
+    width: 120vh;
+}
+
+.joinme ul a {
+    padding: 5px;
+}
+
+#end div p {
+    font-size: 1rem;
+}
+
+#end div{
+    margin: 15px auto;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 2px 1px;
+    font-size: 0.8rem;
+}
+
+
+/* utility class */
+
+.h-primary {
+    font-size: 2.1rem;  /*3.8rem*/
+    padding: 10px;
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 10px;
+}
