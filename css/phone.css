@@ -1,0 +1,173 @@
+ * {
+     overflow: auto;
+ }
+
+ body {
+     background-color: black;
+     /* background-color: red; */
+ }
+
+ #head {
+     /* margin: 5px auto; */
+     padding: 5px auto;
+ }
+
+ .item {
+     list-style: none;
+     font-size: 2.5vh;
+ }
+
+ #navbar ul li a {
+     padding: 5px 10px;
+     border-radius: 20px;
+     text-decoration: none;
+ }
+
+ #logo img {
+     width: 150px;
+     height: 150px;
+ }
+
+ #home {
+     height: 87vh;
+ }
+
+ #home::before {
+     width: 100%;
+     height: 100vh;
+ }
+
+ #home p {
+     padding: 3px 12px;
+     font-size: 2.2vh;
+ }
+
+ #skills {
+     /* height: 1216px; */
+     /* height: 924px; */
+     height: 101vh;
+ }
+
+ #skills::before {
+     background: url('../img/bg2.jpg') no-repeat center center/cover;
+     width: 100%;
+     height: 101vh;
+     /*150vh*/
+     /* height: 260vw; */
+ }
+
+ #skills .container {
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ #skills .box {
+     padding: 10px 10px;
+     margin: 5px 1px;
+     font-size: 1.5vh;
+ }
+
+ /* #skill .box p {
+     font-size: 0.1rem;
+     font-size: 1vw;
+ } */
+
+ #about {
+     margin: 0px;
+     padding: 0px 1px;
+     /* height: 791px; */
+     /* height: 588px; */
+     height: 100vh;
+ }
+
+ #about::before {
+     width: 100%;
+     height: 100vh;
+ }
+
+ #about p {
+     padding: 5px 5px;
+     /* 1.1rem */
+     font-size: 2.1vh;
+ }
+
+ #about .container {
+     margin: 10px 0px;
+ }
+
+ #contact {
+     height: 72vh;
+ }
+
+ #contact::before {
+     width: 100%;
+     height: 74vh;
+ }
+
+ #contact-box {
+     padding-bottom: 5px;
+ }
+
+ #contact-box input, #contact-box textarea {
+     width: 100%;
+     padding: 2px;
+     font-size: 2.3vh;
+ }
+
+ #contact-box .btn {
+     padding: 0.5rem;
+     font-size: 2.5vh;
+     margin: 5px auto;
+ }
+
+ #contact-box form {
+     width: 80%;
+ }
+
+ #contact-box label {
+     font-size: 2.5vh;
+ }
+
+ #end {
+     grid-template-columns: repeat(1, 1fr);
+     grid-column-gap: 5px;
+     padding: 10px 0px;
+     height: 45vh;
+ }
+
+ #end::before {
+     height: 47vh;
+     width: 100%;
+ }
+
+ .joinme ul a {
+     padding: 5px;
+ }
+
+ #end div p {
+     font-size: 2.3vh;
+ }
+
+ #end div {
+     margin: 15px auto;
+ }
+
+ footer {
+     width: 100%;
+     background-color: black;
+     color: white;
+     padding: 2px 1px;
+     font-size: 1.8vh;
+ }
+
+ /* utility class */
+
+ .h-primary {
+     font-size: 4.2vh;
+     /*3.8rem*/
+     padding: 20px 10px;
+ }
+
+ .h-secondary {
+     font-size: 3.3vh;
+     padding: 10px;
+ }
